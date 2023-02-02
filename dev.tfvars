@@ -1,0 +1,9 @@
+region = "us-west-2"
+my_vpc = "192.168.0.0/16"
+my_route_tables = ["my_tag_1","my_tags_2"]
+my_sub = ["192.168.0.0/24","192.168.1.0/24","192.168.2.0/24","192.168.3.0/24"]
+my_tags = [ "my_tags", "mt_tags_2","my_security_group" ]
+instance_type = "t2.micro"
+ami = "t2.micro"
+webtriggers = "1.0"
+host = "52.33.230.2"
